@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.box1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(169, 176, 193);
+    color: beige;
+    padding-left: 50px;
+    height: 80px;
+    flex: auto;
+    display: flex;
+    align-items: center;
+}
+.box2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(169, 176, 193);
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    gap: 30px;
+}
+nav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: beige;
+    
+}
+.mainSection {
+    display: flex;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(222, 235, 240);
+}
+.mainCenterBox {
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    max-width: 800px;
+    padding: 40px;
+    width: 100%;
+    margin: 0 auto;
+}
+.adj-rowInput {
+    padding-left: 10px;
+    height:35px;
+    width: 51%;
+    border-radius: 8px;
+    border: 1px solid #767676;
+    font-size: 11pt
+}
+.adj-areaInput {
+    padding: 10px; 
+    width: 50%;
+    height: 100px;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #767676;
+}
+.btn-submit {
+    background-color: rgb(143, 143, 244);
+    color: beige;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 0px;
+    width: 120px;
+    height: 35px;
+}
+.btn-submit:hover {
+    background-color: black;
+    transition: all 0.3s ease;
+}
+nav a:link {
+    color: beige;
+    transition: all 0.3s ease;
+}
+nav a:visited {
+    color: beige;
+}
+nav a:hover {
+    color: rgb(255, 156, 57);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+nav a:active {
+    color: white;
+    transform: scale(0.95);
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-flex {
+    display: flex;
+    align-items: center;
+}
+.about-text {
+    flex: 1;
+    text-align: left;
+}
+.pt-profile {
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+}
+.work-table {
+    width: 100%;
+    margin-top: 20px;
+}
+th {
+    background-color: rgb(255, 150, 127);
+    border: 1px solid black;
+    padding: 15px 19px;
+}
+td {
+    border: 1px solid black;
+    padding: 15px 19px;
+}
+footer {
+    text-align: center;
+    height: 50px;
+    background-color: rgb(169, 176, 193);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section {
+    margin-bottom: 200px;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #d1d1d1;
+    scroll-margin-top: 100px;
+}
+#contact {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+/* Efek focus-visible untuk aksesibilitas*/
+nav a:focus-visible,
+.btn-submit:focus-visible,
+.adj-rowInput:focus-visible {
+    outline: 3px solid rgb(74, 144, 255);
+    outline-offset: 3px;
+    border-radius: 4px;
+}

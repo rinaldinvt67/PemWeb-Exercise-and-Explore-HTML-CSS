@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exercise</title>
+    
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+      <header class="box1">
+        <h1>Personal Portofolio</h1>
+      </header>
+      <header class="box2">
+        <nav>
+            <a href="index.html#About">About</a>
+            <a href="index.html#Work">Work</a>
+            <a href="#contact.html">Contact</a>
+        </nav>
+      </header>
+    </div>
+    <div class="mainSection">
+      <main class="main">
+        <div class="mainCenterBox">
+          <section id="contact">
+            <h2>Contact Me!</h2>
+            <p>Please fill the form below to discuss:</p>
+            <form action="#" method="POST">
+                <label for="name">Name*</label><br>
+                <input type="text" id="name" required placeholder="Insert your name" class="adj-rowInput"><br><br>
+                
+                <label for="email">Email*</label><br>
+                <input type="email" id="email" required placeholder="Insert your email" class="adj-rowInput"><br><br>
+                
+                <label for="date">Date*</label><br>
+                <input type="date" id="date" class="adj-rowInput"><br><br>
+                
+                <label for="message" id="message">Message (Optional)</label><br>
+                <textarea type="text" id="message" required placeholder="Insert your message" class="adj-areaInput"></textarea>
+                
+                <h4 style="margin-bottom: 5px;">Contact Details:</h4>
+                <input type="radio" id="job" name="Details" value="job">
+                <label>Job Offers</label>
+                
+                <input type="radio" id="discuss" name="Details" value="discuss">
+                <label>Project Discussions</label><br>
+                
+                <input type="checkbox" id="verif" value="verif">
+                <label>I'm not robot<br></label>
+                <button class="btn-submit"><strong>Send Message</strong></button>
+            </form>
+          </section>
+        </div>
+      </main>
+    </div>
+    <footer>
+      &copy; 2026 <strong>Rinaldi Noviyanto</strong>
+    </footer>
+</body>
+</html>
